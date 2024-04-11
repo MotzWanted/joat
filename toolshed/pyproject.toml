@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "toolshed"
+version = "0.0.1"
+description = "Toolshed offers a comprehensive range of tools with minimum cross-dependencies."
+authors = []
+packages = [{ include = "toolshed" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tensorstore = "^0.1.56"
+pydantic = "^2.6.4"
+loguru = "^0.7.2"
+lightning-utilities = "^0.11.2"
+transformers = "^4.39.3"
+omegaconf = "^2.3.0"
+stackprinter = "^0.2.12"
+rich = "^13.7.1"
+numpy = "^1.26.4"
+torch = "^2.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
